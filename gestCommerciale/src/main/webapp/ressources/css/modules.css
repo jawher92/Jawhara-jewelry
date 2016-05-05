@@ -1,0 +1,536 @@
+.container
+{
+	width: 84%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 30px;
+	padding-bottom: 60px;
+}
+
+
+.container_liste
+{
+	width: 64%;
+	display: inline-table;
+	margin-left: 7%;
+}
+
+
+#liste_100
+{
+	width: 98%;
+	margin-left: 0px;
+}
+
+.container_form
+{
+	width: 28%;
+	display: inline-table;
+}
+
+
+#form_100
+{
+	width: 98%;
+	margin-left: 0px;
+}
+
+
+/* listes */
+
+.table_liste
+{
+	width: 100%;
+	border: 1px solid #8d8d8d;
+	text-align: center;
+	border-top: 3px solid #e7bb2d;
+}
+
+
+/* .container_table */
+/* { */
+/* 	max-height: 330px; */
+/* 	overflow-y:scroll; */
+/* 	overflow-x: hidden; */
+/* } */
+
+
+.table_liste th
+{
+	background-color: #231f37;
+	color: white;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+
+.table_liste tr
+{
+	line-height: 45px;
+	font-size: large;
+}
+
+
+.table_liste tr.rowb { 
+	background-color:#fefad0; 
+}
+
+
+.table_liste img
+{
+	cursor: pointer;
+	margin-bottom: -7px;
+}
+
+.table_liste tr:HOVER
+{
+	background-color: #e7bb2d;
+	color: #231f37;
+	transition: .3s linear;
+}
+
+.table_liste tr.filterColumns td { 
+	padding:2px; 
+	background-color: #eee;
+}
+
+
+
+
+.liste_vide
+{
+	width: 100%;
+	color: #9f9e9e;
+	font-size: large;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+.tab_frm_modif
+{
+	width: 100%;
+	margin: auto;
+}
+
+
+.light-table-filter
+{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	outline: 0px;
+	font-size: medium;
+}
+
+
+.light-table-filter:FOCUS
+{
+	border-color: #da181f;
+}
+
+
+/* horaires */
+
+
+.lst_horaires
+{
+	text-align: center;
+/* 	display: inline; */
+	padding: 0;
+/* 	border: 1px solid red; */
+/* 	list-style: none; */
+}
+
+
+.container_hr
+{
+	display: inline-table;
+	border-radius: 10px 0px;
+/* 	border: 0px solid #888; */
+	-webkit-box-shadow: 2px 2px 12px 1px #7A7A7A;
+	box-shadow: 2px 2px 12px 1px #7A7A7A;
+	width: 23%;
+	margin: 1% 10px;
+	
+}
+
+
+.horaires_hr
+{
+	min-height: 260px;
+	max-height: 260px;
+	margin: 8px;
+	margin-top: -8px;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}
+
+
+.lst_horaires ::-webkit-scrollbar-thumb:vertical 
+{
+	background-color: #999;
+}
+
+
+.hr_ajout
+{
+	background-color: #333;
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+	border-radius: 0px 0px 9px 0px;
+	width: 100%;
+	margin: 0px;
+	cursor: pointer;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+
+.hr_ajout:HOVER
+{
+	background-color: #888;
+	
+}
+
+
+.table_hr
+{
+	width: 100%;
+	font-weight: bold;
+	margin-left: -2px;
+}
+
+
+.table_hr img
+{
+	cursor: pointer;
+	op
+}
+
+.ordre_hr
+{
+	background-color: #CCC;
+	margin: 0px;
+	line-height: 36px;
+	border-radius: 0px 100% 100% 0px;
+}
+
+.table_hr tr
+{
+	height: 36px;
+	vertical-align: middle;
+}
+
+
+.h3_Ferie
+{
+	margin: 8px;
+	border-radius: 9px 0px;
+	line-height: 40px;
+	background-color: #ff0000;
+	border-bottom : 5px solid #BE0505;
+	color: white;
+}
+
+
+.h3_Ouvrable
+{
+	margin: 8px;
+	border-radius: 9px 0px;
+	line-height: 40px;
+	background-color: #66CD00;
+	border-bottom : 5px solid #4A9103;
+	color: white;
+}
+
+
+.h3_Samedi
+{
+	margin: 8px;
+	border-radius: 9px 0px;
+	line-height: 40px;
+	background-color: #2DB6E4;
+	border-bottom : 5px solid #03968F;
+	color: white;
+}
+
+
+.h3_Vacance
+{
+	margin: 8px;
+	border-radius: 9px 0px;
+	line-height: 40px;
+	background-color: #FF6600;
+	border-bottom : 5px solid #BE4E02;
+	color: white;
+}
+
+
+/* modifier */
+
+.cmp_modif
+{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	max-height: 100%;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}
+
+
+.cmp_modif H1
+{
+	color: white;
+	background-color: #da181f;
+	line-height: 60px;	
+	margin: -40px;
+	margin-bottom: 10px;
+	font-size: xx-large;
+}
+
+
+.frm_modif
+{
+	background-color: white;
+	width: 40%;
+	padding: 40px;
+	margin: auto;
+	margin-top: 40px;
+	color: black;
+}
+
+
+.frm_modif tr:HOVER
+{
+	background-color: white;
+	color: black;
+}
+
+
+
+/* supprimer */
+
+.cmp_supp
+{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	max-height: 100%;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}	
+
+
+.cmp_supp H1
+{
+	color: white;
+	background-color: #da181f;
+	line-height: 60px;	
+	margin: -20px;
+	margin-bottom: 30px;
+	font-size: xx-large;
+}
+
+
+.frm_supp
+{
+	background-color: white;
+	width: 30%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 5%;
+	color: black;
+}
+
+
+
+
+
+
+.compo_type_vh
+{
+	display: none;
+}
+
+#rd_vh_typeVh:checked ~ .container_form .compo_type_vh
+{
+	display: inline;
+}
+
+#rd_vh_typeVh:checked ~ .container_form .frm_vehicule
+{
+	display: none;
+}
+
+
+
+/* reclamations */
+
+#label_rec:HOVER
+{
+	cursor: pointer;
+}
+
+
+.detalles_rec
+{
+	border: 2px solid #ccc; 
+	min-height: 250px;
+}
+
+
+#detailles_rec
+{
+	display: none;
+}
+
+
+
+
+@media screen and (max-width:1150px)
+{
+
+.container_hr
+{
+	width: 43%;
+}
+
+
+
+
+	
+}	
+	
+	
+@media screen and (max-width:1000px){
+
+.container
+{
+	width: 90%;
+	padding: 3%;
+}
+
+
+.container_liste
+{
+	width: 98%;
+	margin-left: 0px;
+}
+
+
+.container_form
+{
+	width: 98%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.cmp_modif
+{
+/* 	position: absolute; */
+}
+
+
+
+.tab_frm_modif
+{
+	width: 84%;
+	margin: auto;
+}
+
+
+.frm_modif
+{
+	background-color: white;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 50px;
+/* 	margin: auto; */
+	margin-top: 0px;
+	position: absolute;
+	min-height: 100%;
+}
+
+
+.case_opt2
+{
+	display: none;
+}
+
+}
+
+
+
+@media screen and (max-width:630px){
+
+.container
+{
+	width: 96%;
+	padding: 3%;
+}
+
+.container_liste
+{
+	width: 98%;
+	margin-left: 0px;
+}
+
+
+.container_form
+{
+	width: 98%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.cmp_modif
+{
+/* 	position: absolute; */
+}
+
+
+
+}
+
+
+@media screen and (max-width:450px){
+
+.case_opt
+{
+	display: none;
+}
+
+
+.container_hr
+{
+	width: 94%;
+}
+
+
+}

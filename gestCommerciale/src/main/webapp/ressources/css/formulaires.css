@@ -1,0 +1,253 @@
+.frm_container{
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	z-index: 100;
+}
+
+.frm_wrapper{
+	width: 33%;
+	margin: auto;
+	background-color: white;
+	margin-top: 8%;
+	padding: 30px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.mes_frmulaires
+{
+	color: #8b2b73;
+	font-weight: bold;
+}
+
+
+input[type=date], input[type=text], input[type=number], input[type=time], input[type=tel], input[type=email], input[type=password], select, textarea
+{
+	width: 100%;
+	width: calc(100% - 6px);
+	width: -moz-calc(100% - 6px);
+	width: -webkit-calc(100% - 6px);
+	
+	height: 30px;
+	font-size: large;
+	background-color: #f7eeb3;
+	border: 3px solid #e7bb2d;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: 0px;
+	color: #363636;
+	margin-bottom: 10px;
+}
+
+
+textarea
+{
+	resize: none;
+	height: 90px;
+}
+
+
+select
+{
+	height: 37px;
+	padding-right: 20px;
+	min-width: 100%;
+}
+
+
+select option
+{
+	color: #231f37;
+	line-height: 45px;
+	font-size: large;
+	font-weight: bold;
+	background-color: #e7bb2d;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+input[type=date]:HOVER, input[type=text]:HOVER, input[type=number]:HOVER, input[type=time]:HOVER, select:HOVER, textarea:HOVER, input[type=tel]:HOVER , input[type=email]:HOVER, input[type=password]:HOVER
+{
+	background-color: #ffffff;
+}
+
+
+input[type=date]:FOCUS, input[type=text]:FOCUS, input[type=number]:FOCUS, input[type=time]:FOCUS, select:FOCUS, textarea:FOCUS, input[type=tel]:FOCUS, input[type=email]:FOCUS, input[type=password]:FOCUS
+{
+	border-color: #c09406;
+}
+
+
+.opt_form
+{
+	width: 100%;
+	height: 40px;
+	font-size: medium;
+	background-color: #eee;
+	border: 3px solid #eee;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 30px;
+}
+
+
+.bt_valider{
+	width: 50%;
+	font-size: medium;
+	background-color: #e7bb2d;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-style: none;
+	font-weight: bold;
+/* 	border-bottom: 3px solid #731f1f; */
+	box-shadow: inset 0 -4px 0 #231f37;
+	font-size: large;
+	border: 2px solid #eee;
+	color: #231f37;
+	padding: 8px;
+	width: 100px;
+	cursor: pointer;
+	
+	-webkit-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+}
+
+.bt_valider:HOVER{
+	box-shadow: inset 0 -55px 0 #231f37,
+    2px 2px 3px rgba(0,0,0,0.3);
+  	color: #e7bb2d;
+  	border: 2px solid #ccc;
+}
+
+
+.bt_annuler{
+	background-color: #ccc;
+	border: 2px solid #231f37;
+		width: 50%;
+	font-size: medium;
+	background-color: #ccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-style: none;
+	font-weight: bold;
+/* 	border-bottom: 3px solid #731f1f; */
+	box-shadow: inset 0 -4px 0 #231f37;
+	font-size: large;
+	border: 2px solid #eee;
+	color: #231f37;
+	padding: 8px;
+	width: 100px;
+	cursor: pointer;
+	
+	-webkit-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+}
+
+.bt_annuler:HOVER
+{
+	box-shadow: inset 0 -55px 0 #231f37,
+    2px 2px 3px rgba(0,0,0,0.3);
+  	color: #ccc;
+  	border: 2px solid #ccc;
+}
+
+
+.mes_frmulaires a
+{
+	cursor: pointer;
+	color: black;
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+.mes_frmulaires a:HOVER
+{
+	color:#da181f ;
+}
+
+
+.opt_form input[type=button], .annuler
+{
+	min-width: 45%;
+	height: 34px;
+	margin: 3px;
+	font-size: medium;
+	background-color: transparent;
+	color: #444444;
+/* 	border-radius: 5px; */
+	border-style: none;
+	font-weight: bold;
+	cursor: pointer;
+	outline: 0px;
+}
+
+
+.annuler
+{
+	line-height: 40px;
+	margin-left: 40px;
+}
+
+
+.opt_form input[type=button]:HOVER, .annuler:HOVER
+{
+	color: #231f37;
+	text-shadow: 1px 0 0 #e7bb2d, -1px 0 0 #e7bb2d, 0 1px 0 #e7bb2d, 0 -1px 0 #e7bb2d, 1px 1px #e7bb2d, -1px -1px 0 #e7bb2d, 1px -1px 0 #e7bb2d, -1px 1px 0 #e7bb2d;
+	-webkit-text-shadow: 1px 0 0 #e7bb2d, -1px 0 0 #e7bb2d, 0 1px 0 #e7bb2d, 0 -1px 0 #e7bb2d, 1px 1px #e7bb2d, -1px -1px 0 #e7bb2d, 1px -1px 0 #e7bb2d, -1px 1px 0 #e7bb2d;
+	-khtml-text-shadow: 1px 0 0 #e7bb2d, -1px 0 0 #e7bb2d, 0 1px 0 #e7bb2d, 0 -1px 0 #e7bb2d, 1px 1px #e7bb2d, -1px -1px 0 #e7bb2d, 1px -1px 0 #e7bb2d, -1px 1px 0 #e7bb2d;
+	-moz-text-shadow: 1px 0 0 #e7bb2d, -1px 0 0 #e7bb2d, 0 1px 0 #e7bb2d, 0 -1px 0 #e7bb2d, 1px 1px #e7bb2d, -1px -1px 0 #e7bb2d, 1px -1px 0 #e7bb2d, -1px 1px 0 #e7bb2d;
+}
+
+
+.bt_valider2{
+	width: 45%;
+	font-size: medium;
+	background-color: #444;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-style: none;
+	font-weight: bold;
+	border-bottom: 3px solid #eee;
+	box-shadow: inset 0 -4px 0 #231f37;
+	font-size: large;
+	border: 2px solid #eee;
+	color: #fff;
+	padding: 8px;
+	width: 100px;
+	cursor: pointer;
+	
+	-webkit-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+}
+
+.bt_valider2:HOVER{
+	box-shadow: inset 0 -55px 0 #231f37,
+    2px 2px 3px rgba(0,0,0,0.3);
+  	color: #e7bb2d;
+  	border: 2px solid #ccc;
+}
+
+
+
+
+@media screen and (max-width:1000px)
+{
+	.bt_ajout
+	{
+		min-width: 100%;
+	}
+}
+
+
+

@@ -1,0 +1,102 @@
+.cadre_cmp_chiffres
+{
+	min-height: 150px;
+	max-height:150px;
+	overflow:hidden;
+	width: 100%;
+	border: 2px solid #ccc;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+
+.tab_cmp_chiffres a
+{
+	color: #333;
+/* 	font-style: italic; */
+	text-decoration: none;
+	font-size: small;
+	float: right;
+	background-color: #ccc;
+	margin-right: -4px;
+	padding: 2px 14px;
+	-webkit-border-radius: 10px 0 0 10px;
+	border-radius: 10px 0 0 10px;
+}
+
+
+.tab_cmp_chiffres a:HOVER
+{
+	color: #8b2b73;
+}
+
+
+.totale_cmp_chiffres
+{
+	color: #a09f9f;
+	font-size: 16px;
+	line-height: 0px;
+	font-weight: bold;
+}
+
+
+.H3vehicules
+{
+	color: #d1026c;
+	font-size: large;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 0px;
+}
+
+
+.H3stations
+{
+	color: #fbab18;
+	font-size: large;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 0px;
+}
+
+
+.H3condicteurs
+{
+	color: #00abee;
+	font-size: large;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 0px;
+}
+
+
+.H3trajets
+{
+	color: #35495c;
+	font-size: large;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 0px;
+}
+
+
+.H3voyages
+{
+	color: #59b200;
+	font-size: large;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 0px;
+}
+
+
+.H3alertes
+{
+	color: #d71d1e;
+	font-size: large;
+	font-weight: bold;
+	padding: 0px;
+	line-height: 0px;
+}
+

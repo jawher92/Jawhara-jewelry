@@ -1,0 +1,140 @@
+
+
+.menu,
+.sub-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.menu li {
+/*   background-color: #181628; */
+  cursor: pointer;
+  position: relative;
+  transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  -webkit-transition: background-color .5s;
+  /* IE lt 10, Chrome lt 1, Opera lt 11.6, Safari lt 3, FF lt 4, Android lt 2.1 и iOS lt 2.0 не поддерэивают transition. */
+}
+
+.menu li:hover {
+  background-color: rgba(0,0,0,.5) !important; /* .menu > li.home может иметь больше приоритета. Поэтому. */
+}
+
+.menu a {
+  color: #181628;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.menu a:hover {
+  color: #FFF;
+}
+.menu {
+  height: 40px;
+}
+
+.menu > li {
+  float: left;
+  height: 100%;
+  width: 15%; 
+  width: calc((100% - 90px) / 4);
+  width: -moz-calc((100% - 90px) / 4);
+  width: -webkit-calc((100% - 90px) / 4);
+  /* IE lt 9, Chrome lt 19, Opera lt 15, Safari lt 6, FF lt 4, Android и iOS не поддерэивают calc. */
+}
+
+.menu > li.home {
+  background: #e7bb2d url(http://s26.postimg.org/qbf4q4j9h/home.png) center no-repeat;
+  width: 90px;
+
+  background-color: #e7bb2d; /* !important VS .menu li:hover */
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  /* IE lt 9, Chrome lt 1, Opera lt 10.5, Safari lt 3, FF lt 3.5, Android lt 2.1 и iOS lt 2.0 не поддерэивают box-shadow. */
+}
+
+
+.menu > li:not(:first-child) {
+  box-shadow: inset 1px 0 0 0 #c6c6c7, inset 1px 0 0 0 #c6c6c7;
+  -moz-box-shadow: inset 1px 0 0 0 #c6c6c7, inset 1px 0 0 0 #c6c6c7;
+  -webkit-box-shadow: inset 1px 0 0 0 #c6c6c7, inset 1px 0 0 0 #c6c6c7;
+}
+
+.menu > li.home > a {
+  color: transparent !important;
+}
+
+.menu > li > a > span {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  /* IE lt 9, Chrome lt 5, Opera lt 10.5, Safari lt 3.1, FF lt 3.5, Android lt 2.1 и iOS lt 2.0 не поддерэивают transform. */
+}
+
+
+.sub-menu {
+	max-height: 0;
+	min-width: 100%;
+	overflow: hidden;
+	background-color: white;
+	position: absolute;
+	top: 100%;
+	transition: max-height .5s .2s;
+	-moz-transition: max-height .5s .2s;
+	-o-transition: max-height .5s .2s;
+	-webkit-transition: max-height .5s .2s;
+}
+
+li:hover > .sub-menu {
+  max-height: 600px;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.sub-menu li {
+  height: 40px;
+}
+
+.sub-menu a {
+  line-height: 40px;
+  transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
+  -webkit-transition: color .5s;
+  white-space: nowrap;
+}
+
+.sub-menu li.current a,
+.sub-menu a:hover {
+	
+  color: #e7bb2d !important; /* !important VS .menu a:hover */
+}
+
+@media screen and (max-width:1000px){
+	.menu {
+	  height: 36px;
+	}
+	
+	.menu a {
+		font-size: 11px;
+	}
+	
+}
