@@ -15,4 +15,4 @@ import com.google.gson.Gson;
 import com.jawhara.dao.FournisseurDao;
 import com.jawhara.dao.ProduitDao;
 import com.jawhara.entity.Fournisseur;
-import com.jawhara.entity.Produit;
+import com.jawhara.entity.Client;
