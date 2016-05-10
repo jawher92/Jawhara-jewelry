@@ -11,7 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="shortcut icon" href="ressources/img/icone.ico" type="image/x-icon" />
 	<meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
-	<title>Bijouterieeeeeeeeeeeeeeeeeeee</title>
+	<title>Bijouterieeeezzzzzzzeeeeeeeeeeeeeeee</title>
 	
 	<link href="ressources/css/menu_mobile.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" type="text/css" href="ressources/css/generale.css" />
